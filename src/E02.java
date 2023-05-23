@@ -2,16 +2,20 @@ import java.util.Scanner;
 
 public class E02 {
     public static void main(String[] args) {
-        Scanner calculoImc = new Scanner(System.in);
+        //solicita informações ao usuário
+        Scanner entradaDoUsuario = new Scanner(System.in);
+
         System.out.println("Digite seu peso em kg");
-        double peso = calculoImc.nextDouble();
+        double peso = entradaDoUsuario.nextDouble();
 
         System.out.println("Digite sua altura");
-        double altura = calculoImc.nextDouble();
+        double altura = entradaDoUsuario.nextDouble();
 
+        //calcula o IMC e informa a classificação de acordo com as condições abaixo
         double resultadoImc = peso / (altura * altura);
-        System.out.printf("O seu IMC é " + resultadoImc + ", equivalente a classificação de " );
+        System.out.printf("O seu IMC é " + resultadoImc + ", equivalente a classificação de ");
 
+        //condições
         if (resultadoImc < 18.5) {
             System.out.printf("Abaixo do peso. Procure um médico!");
         } else if
