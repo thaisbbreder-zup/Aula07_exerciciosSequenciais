@@ -7,7 +7,7 @@ public class E01 {
         Scanner entradaDiaria = new Scanner(System.in);
 
         System.out.println("Digite o seu rendimento do dia em kg: ");
-        double pesoDiario = entradaDiaria.nextByte();
+        double pesoDiario = entradaDiaria.nextDouble();
 
         if (pesoDiario > 50) {
             double excesso = pesoDiario - 50;
