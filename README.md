@@ -23,8 +23,7 @@ OBS:  Fórmula: IMC = peso/ (altura x altura).
 <h2> Exercício 03 </h2>
  Crie um algoritmo que leia o valor do salário de um usuário, calcule a quantidade de salários mínimos que esse usuário ganha e imprima o resultado. (1SM=R$1.212,00).
 <br><br>
-<img width="394" alt="image" src="https://github.com/thaisbreder/Aula07_Exercicios/assets/133882082/74da6d80-18a8-4d31-8b61-721d641dc4ae">
-<br>
+<img width="392" alt="image" src="https://github.com/thaisbreder/Aula07_Exercicios/assets/133882082/7e2f0bea-951f-4a3d-8d0d-a5b450edee34"><br>
 <br>
 <h2> Exercício 04 </h2>
 Faça um algoritmo que leia a idade de uma pessoa expressa em anos, meses e dias e mostre-a expressa em dias. Leve em consideração o ano com 365 dias e o mês com 30. (Ex: 3 anos, 2 meses e 15 dias = 1170 dias.)
